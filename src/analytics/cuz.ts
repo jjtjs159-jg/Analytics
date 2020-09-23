@@ -31,7 +31,7 @@ interface Purchase {
     // Shipping
     shipping: number;
     // Transaction coupon
-    coupon: string;
+    coupon?: string;
 }
 
 type Cuz = {
